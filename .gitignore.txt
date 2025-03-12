@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Angular build output
+dist/
+out-tsc/
+
+# Environment files (may contain sensitive data)
+src/environments/environment*.ts
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+*.cache/
+.DS_Store
+
+# Compiled TypeScript files
+*.js
+*.js.map
+
+# Angular-specific files
+.angular/
+
+# Firebase deployment files (if using Firebase)
+.firebase/
+
+# Miscellaneous
+Thumbs.db
